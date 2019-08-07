@@ -1,0 +1,2 @@
+Prefix plugins/CSVLabel/example/
+Plugin CSVLabel inputfile parameters.txt outputfile abundR.labeled.csv

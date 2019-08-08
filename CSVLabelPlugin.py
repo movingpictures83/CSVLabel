@@ -15,8 +15,9 @@ class CSVLabelPlugin:
          if (pos == 0):
             line = "\"\"," + line
          else: 
-            line = self.params['label'] + "," + line
+            line = self.params['label'] + str(pos) + "," + line
          self.contents += line
+         pos += 1
 
    def output(self, filename):
       g = open(filename, 'w')

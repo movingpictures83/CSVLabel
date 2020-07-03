@@ -2,7 +2,8 @@
 # Language: Python
 # Input: TXT (keyword, value pairs)
 # Output: CSV (labeled)
-# Tested with: PluMA 1.0, Python 3.6
+# Tested with: PluMA 1.1, Python 3.6
+
 
 PluMA plugin to take a CSV file and label each row (the first row is assumed to be a header, and labeled with "").
 
